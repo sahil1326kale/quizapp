@@ -1,46 +1,86 @@
-Generated with [vike.dev/new](https://vike.dev/new) ([version 547](https://www.npmjs.com/package/create-vike/v/0.0.547)) using this command:
+# 🧠 Quiz App – Frontend Developer Intern Assignment
 
-```sh
-npm create vike@latest --- --react
-```
+A modern, fully responsive, interactive quiz application built using **React + TypeScript + Vite**, designed as part of the *Frontend Developer Intern Assignment*.  
+The project includes smooth UI animations, theme switching, answer review mode, score calculation, and confetti celebration for high scores.
 
-## Contents
+---
 
-- [Vike](#vike)
-  - [Plus files](#plus-files)
-  - [Routing](#routing)
-  - [SSR](#ssr)
-  - [HTML Streaming](#html-streaming)
+## 🚀 Live Demo  
+🔗 **Deployed Link:** https://your-vercel-link.vercel.app  
+(Replace with your actual link)
 
-## Vike
+---
 
-This app is ready to start. It's powered by [Vike](https://vike.dev) and [React](https://react.dev/learn).
+## 📁 GitHub Repository  
+🔗 https://github.com/your-username/quiz-app-frontend-intern-assignment  
+(Replace with your repo link)
 
-### Plus files
+---
 
-[The + files are the interface](https://vike.dev/config) between Vike and your code.
+## 🎯 Features
 
-- [`+config.ts`](https://vike.dev/settings) — Settings (e.g. `<title>`)
-- [`+Page.tsx`](https://vike.dev/Page) — The `<Page>` component
-- [`+data.ts`](https://vike.dev/data) — Fetching data (for your `<Page>` component)
-- [`+Layout.tsx`](https://vike.dev/Layout) — The `<Layout>` component (wraps your `<Page>` components)
-- [`+Head.tsx`](https://vike.dev/Head) - Sets `<head>` tags
-- [`/pages/_error/+Page.tsx`](https://vike.dev/error-page) — The error page (rendered when an error occurs)
-- [`+onPageTransitionStart.ts`](https://vike.dev/onPageTransitionStart) and `+onPageTransitionEnd.ts` — For page transition animations
+### ✅ **1. Clean & Modern UI**
+- Professional layout  
+- Soft gradients, rounded cards, and polished typography  
+- Fully responsive on all devices  
 
-### Routing
+### 🌙 **2. Light & Dark Theme Toggle**
+- Smooth color transitions  
+- Both themes styled separately for the best aesthetic  
+- Entire UI adapts instantly  
 
-[Vike's built-in router](https://vike.dev/routing) lets you choose between:
+### 🎉 **3. Confetti Animation**
+- High scores (≥ 80%) trigger a confetti celebration  
+- Gives a delightful user experience  
 
-- [Filesystem Routing](https://vike.dev/filesystem-routing) (the URL of a page is determined based on where its `+Page.jsx` file is located on the filesystem)
-- [Route Strings](https://vike.dev/route-string)
-- [Route Functions](https://vike.dev/route-function)
+### 📊 **4. Dynamic Score Calculation**
+- Automatically calculates total score  
+- Displays percentage + correct answers count  
 
-### SSR
+### 🔄 **5. Restart Quiz**
+- Allows the user to retake quiz anytime  
 
-SSR is enabled by default. You can [disable it](https://vike.dev/ssr) for all or specific pages.
+### 📝 **6. Review Answers Page**
+- Shows:
+  - Your selected answer  
+  - Correct answer  
+  - Highlighting for correct/incorrect  
+- Helps user understand mistakes  
 
-### HTML Streaming
+### 🪄 **7. Smooth Animations (Framer Motion)**
+- Fade-in transitions  
+- Subtle UI movements  
+- Engaging, premium feel throughout the app  
 
-You can [enable/disable HTML streaming](https://vike.dev/stream) for all or specific pages.
+---
 
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|-----------|---------|
+| **React + TypeScript** | Component-based UI + strict typing |
+| **Vite** | Fast dev environment + optimized builds |
+| **Tailwind CSS** | Utility-first responsive styling |
+| **Framer Motion** | Animations & transitions |
+| **React-Confetti** | Celebration animation |
+| **CSS Variables** | Theme switching (light/dark) |
+| **Local State (Hooks)** | Quiz logic & navigation |
+
+---
+
+## 📦 Installation & Setup
+
+Follow these steps to run the project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/quiz-app-frontend-intern-assignment.git
+
+# Move into project folder
+cd quiz-app-frontend-intern-assignment
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev

@@ -1,0 +1,20 @@
+.wrapper {
+  display:flex;
+  gap:12px;
+  justify-content:center;
+  align-items:center;
+  padding: 6px 12px;
+}
+
+.segment {
+  width: 22%;
+  height: 8px;
+  border-radius: 8px;
+  background: var(--progress-bg);
+  transition: all .18s ease;
+}
+
+.segmentActive {
+  background: var(--progress-active);
+  box-shadow: 0 6px 18px rgba(15,80,90,0.12);
+}
